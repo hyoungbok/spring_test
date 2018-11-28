@@ -6,12 +6,12 @@
 	String grade=(String)session.getAttribute("grade");
 	String str=null;
 	
-	String title="나의 여행 블로그";
+	String title="홈페이지가 없다...ㅜㅜ";
 	if(id!=null && grade.equals("A")){
 	   title="관리자 페이지";
 	}
 	if(id==null){
-		str="메인페이지 입니다.";
+		str="게시판페이지 입니다.";
 	}else{
 		str="안녕하세요"+id+"님";
 	}
